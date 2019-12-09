@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="254dp"
+        app:srcCompat="@drawable/mansoura" />
+
+    <TextView
+        android:id="@+id/desc1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Restaurant el Mansourah"
+        android:textSize="16sp"
+        android:textStyle="bold">
+
+    </TextView>
+    <TextView
+        android:id="@+id/desc2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description :
+Spécialités :cuisine méditerranéenne axée sur des produits sains, équilibrés, variés et succulents de son terroir, un accord mets et vins unique «poisson grillé rose à l’arrête et un bon muscat sec de kélibia » surprendront vos papilles.
+
+options : 7/7 , 12/12 ouvert même pendant ramadan.
+
+un endroit magique, manger les pieds dans l’eau été comme hiver.
+
+Adresse : Kelibia Plage Kelibia TN 0
+Budget moyen : 50DT
+Alcool : Oui"
+        android:textSize="16sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+
+
+
+
+    </LinearLayout>
+

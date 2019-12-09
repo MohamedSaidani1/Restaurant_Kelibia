@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="254dp"
+        app:srcCompat="@drawable/ppecheur" />
+
+    <TextView
+        android:id="@+id/desc1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Restaurant Le petit pecheur Kelibia"
+        android:textSize="16sp"
+        android:textStyle="bold">
+
+    </TextView>
+    <TextView
+        android:id="@+id/desc2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description : Le petit pecheur, Kélibia : Reservez au Petit pêcheur le meilleur restaurant/café à kelibia. Au cœur du port de Kélibia, Le petit pêcheur vous convie à sa table et vous fait partager ses découvertes. Vous serez les bienvenues dans un décor sublime, entouré de nos serveurs qui seront là pour vous servir et vous faire déguster leurs plus beaux trésors: Plats Poissons et viandes, les Pâtes et les entrées..etc"
+        android:textSize="16sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="26dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginBottom="16dp"
+        android:text="Reserver"
+        >
+
+    </Button>
+
+
+</LinearLayout>

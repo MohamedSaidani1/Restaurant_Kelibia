@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="254dp"
+        app:srcCompat="@drawable/monacobay" />
+
+    <TextView
+        android:id="@+id/desc1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Restaurant Monaco Bay Kelibia"
+        android:textSize="16sp"
+        android:textStyle="bold">
+
+    </TextView>
+    <TextView
+        android:id="@+id/desc2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description : Monaco Bay, Kélibia, rue Petit Paris, plage de Mansourah: Un restaurant gastronomique 3 Forks, il sert une cuisine de qualité, il possède une cave honorable, un accueil attentionné, un service soigné et un cadre agréable au bord de la 7e plus belle plage de le monde. Il propose des plats à la carte et des menus festifs de poisson et fruits de mer ou de viande, un salon intérieur somptueux et une magnifique piscine et une superbe terrasse spacieuse, partiellement couverte et vitrée; un vrai paradis, chic et idyllique, où les soirées s'allongent, les rencontres se multiplient, les trésors gastronomiques bons et beaux abondent et les verres regorgent d'esprits distinctifs et qualitatifs."
+        android:textSize="16sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_margin="26dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginBottom="16dp"
+        android:text="Reserver">
+
+    </Button>
+
+
+</LinearLayout>

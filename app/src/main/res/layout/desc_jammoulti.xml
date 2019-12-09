@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="254dp"
+        app:srcCompat="@drawable/jamoulti" />
+
+    <TextView
+        android:id="@+id/desc1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Restaurant Jammoulty Kelibia"
+        android:textSize="16sp"
+        android:textStyle="bold">
+
+    </TextView>
+    <TextView
+        android:id="@+id/desc2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description : Jammoulty, Kélibia, rue Petit Paris, plage de Mansourah:
+        Un endroit a la fois choix chaleureux, conviviale et chic un endroit parfait pour passer du bon temps
+        entre amis manger un bon repas et ou boire un café entre amis ou en famille face à la mer idéale pour se reposer
+        l'esprit on y partage de bon moments en écoutant de la bonne musique avec un service de qualité et de bon prix
+        son emplacement idéales pour les vacanciers face à la plage petit paris pieds dans l'eau pour s'exalter
+        de la beauté de la mer et de l'ambiance qu'on y trouve que se soit en famille ou entre amis vous ne regretterez pas d'y etre venue
+        car nous offrant le meilleur service avec la meilleur qualité"
+        android:textSize="16sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="26dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginBottom="16dp"
+        android:text="Reserver"
+        >
+
+    </Button>
+
+
+</LinearLayout>
