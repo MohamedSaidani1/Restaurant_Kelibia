@@ -13,7 +13,7 @@ public class monaco extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.desc_mansourah);
+        setContentView(R.layout.desc_monaco);
 
     }
 }

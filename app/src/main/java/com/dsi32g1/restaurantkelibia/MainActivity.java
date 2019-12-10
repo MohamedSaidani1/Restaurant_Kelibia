@@ -102,17 +102,14 @@ private ActionBarDrawerToggle mToggle;
     {
         startActivity(new Intent (this, mansourah.class));
     }
-    public void page2(View view)
+    public void page2 (View view)
     {
-        this.view = view;
         startActivity(new Intent (this, monaco.class));
     }
-    public void page3(View view)
+    public void page3 (View view)
     {
-        this.view = view;
         startActivity(new Intent (this, jammoulti.class));
     }
-
 
 
 }
